@@ -1,0 +1,13 @@
+{
+  "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
+  "tasks": {
+    "laoc:dev": "deno task -f laoc dev",
+    "laoc:test": "deno task -f laoc test",
+    "utils:dev": "deno task -f utils dev",
+    "utils:test": "deno task -f utils test"
+  },
+  "workspace": [
+    "laoc/cli",
+    "utils"
+  ]
+}
